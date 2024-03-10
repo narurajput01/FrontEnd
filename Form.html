@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="fav.ico">
+    <title>Form in html</title>
+    <style>
+        table,tr,th,td {
+            
+            border: 1px solid black;    
+        }
+        th{
+            background-color:   rgb(91, 165, 42);
+        }
+        td{
+            background-color: aqua;
+        }
+        div.content{
+            float: left;
+            width: 50%;
+            background-color: rgb(131, 131, 131);
+            height: 100%;
+
+        }
+        div.container{
+
+            float: right;
+            width: 50%;
+            background-color: rgb(255, 0, 34);
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+            Name: <input type="text" id="name" placeholder="Name"><br>
+            email: <input type="text" id="email" placeholder="Email Address"><br><br>
+            Phone: <input type="text" id="phone" placeholder="Phone Number"><br><br>
+            <input type="submit" value="Submit" style="float: center;">
+        </form>
+    </div>
+    <div class="container">
+        <table>
+            <caption> Car Price </caption>
+            <tr>
+                <th>Car</th>
+                <th>Company</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td> Fortuner</td>
+                <td> Toyota</td>
+                <td> 5000000 rs.</td>
+            </tr>
+            <tr>
+                <td> Tata harrier</td>
+                <td> Tata</td>
+                <td> 2500000 rs.</td>
+            </tr>
+            <tr>
+                <td> Boloro</td>
+                <td> Mahindra</td>
+                <td> 2500000 rs.</td>
+            </tr>
+        </table>
+
+
+    </div>
+    
+</body>
+</html>
